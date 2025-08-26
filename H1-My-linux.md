@@ -102,8 +102,6 @@ I set up a new dataset:
 - SSH server
 - Standard system utilities
 
-All installation steps completed successfully without errors.
-
 ---
 
 ## Post-Install Configuration
