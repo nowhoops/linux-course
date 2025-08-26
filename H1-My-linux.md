@@ -123,7 +123,7 @@ ip a
 sudo apt install x11-apps
 xeyes &
 
- ![Kuvaus]([upload/xeyes.png](https://github.com/nowhoops/linux-course/blob/main/upload/xeyes.png))
+ ![Kuvaus](https://github.com/nowhoops/linux-course/blob/main/upload/xeyes.png)
 
 Karvinen, 2023
 Basic Firewall Settings
