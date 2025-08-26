@@ -123,8 +123,7 @@ ip a
 sudo apt install x11-apps
 xeyes &
 
- ![Add file: Upload](upload/xeyes.png)
-
+ ![Kuvaus](upload/xeyes.png)
 
 Karvinen, 2023
 Basic Firewall Settings
