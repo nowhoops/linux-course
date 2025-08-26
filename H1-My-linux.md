@@ -13,18 +13,18 @@
 
 - **NO FABRICATION**
 - **NO PLAGIARISM**
-- **DON’T SAY YOU DID STUFF YOU DIDN’T**
+- **DON’T SAY YOU DID STUFF YOU ACTUALLY DIDN’T**
 
 ---
 
 ## a) Install Linux on a Virtual Machine
 
-> Create a new virtual machine for the report, even if you have installed Linux before.
+> Create a new virtual machine for the report
 
 ### Preparing
 
 - **Date**: 2025-08-25  
-- **Host System**: TrueNAS server with additional compute resources  
+- **Host System**: TrueNAS server
 - **VM Location**: `/mnt/POOL01/Application/VM`  
 - **Access Controls**: Set necessary permissions for users on the dataset
 
@@ -122,10 +122,6 @@ ping 1.1.1.1
 ip a
 sudo apt install x11-apps
 xeyes &
-
-![Kuvaus](poist.png)
-
-Karvinen, 2023
 Basic Firewall Settings
 
 sudo apt install ufw
@@ -142,5 +138,4 @@ xeyes &
 
 Lähteet
 
-Tero Karvinen, 2023. Luettu:23.08 Luettavissa:
-https://github.com/terokarvinen/dreamhugmonkey#adding-images-to-markdown.
+
