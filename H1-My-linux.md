@@ -38,7 +38,8 @@ My chosen Linux distribution was **Debian 13 “Trixie”**, the latest release.
 I set up a new dataset:
 
 - **Path**: `/mnt/POOL01/Application/VM`
-- I gave necessary access controls to users.
+- I gave necessary access controls to users
+  * User-libvirt-qemu         Allow|Modify.
 
 #### Virtual Machine Configuration
 
