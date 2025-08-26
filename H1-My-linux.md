@@ -39,7 +39,8 @@ I set up a new dataset:
 
 - **Path**: `/mnt/POOL01/Application/VM`
 - I gave necessary access controls to users
-  * User-libvirt-qemu         Allow|Modify.
+![Xeyes](upload/ACL.png)
+(Karvinen, 2022)
 
 #### Virtual Machine Configuration
 
@@ -122,7 +123,7 @@ ip a
 sudo apt install x11-apps
 xeyes&
 ```
-Photo:
+
 ![Xeyes](upload/xeyes.png)
 (Karvinen, 2022)
 
