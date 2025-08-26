@@ -123,7 +123,8 @@ ip a
 sudo apt install x11-apps
 xeyes &
 
-![xeyes](uploads/xeyes.png)
+<img src="uploads/xeyes.png" alt="Xeyes-kuva" width="300" />
+
 Karvinen, 2023
 Basic Firewall Settings
 
