@@ -121,8 +121,8 @@ ping 1.1.1.1
 ip a
 sudo apt install x11-apps
 xeyes &
-Basic Firewall Settings
 
+Basic Firewall Settings
 sudo apt install ufw
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
