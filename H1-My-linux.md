@@ -135,7 +135,8 @@ Best program xeyes
 Not too useful but always makes me crack up
 
 Lähteet
-Tero Karvinen, 6.2006. Raportin kirjoittaminen Luettu: 24.08
+Tero Karvinen, 4.6.2006. Raportin kirjoittaminen Luettu: 24.08.2025
 Luettavissa:https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
-Linux-palvelimet - ICI003AS2A-3014 - ke 17:40 online - Tero ja Johanna - 2025p1
+Tero Karvinen. s.a. Linux Palvelimet 2025 alkusyksy. Luettu:24.08.2025
+Luettavissa: https://terokarvinen.com/linux-palvelimet/
