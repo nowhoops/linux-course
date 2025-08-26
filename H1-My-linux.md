@@ -138,3 +138,4 @@ Lähteet
 Tero Karvinen, 6.2006. Raportin kirjoittaminen Luettu: 24.08
 Luettavissa:https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
+Linux-palvelimet - ICI003AS2A-3014 - ke 17:40 online - Tero ja Johanna - 2025p1
