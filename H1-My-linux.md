@@ -120,8 +120,9 @@ sudo apt update
 ping 1.1.1.1
 ip a
 sudo apt install x11-apps
-xeyes &
- 
+xeyes&
+
+Photo:
 ![Xeyes](upload/xeyes.png)
 (Karvinen, 2022)
 
