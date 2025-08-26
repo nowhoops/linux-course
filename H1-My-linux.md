@@ -123,6 +123,8 @@ sudo apt install x11-apps
 xeyes &
  
 ![Xeyes](/upload/xeyes.md)
+(Karvinen, 2022)
+
 
 Basic Firewall Settings
 sudo apt install ufw
@@ -142,3 +144,4 @@ Luettavissa:https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 Tero Karvinen. s.a. Linux Palvelimet 2025 alkusyksy. Luettu:24.08.2025
 Luettavissa: https://terokarvinen.com/linux-palvelimet/
+Tero Karvinen. 2022. dreamhugmonkey. Luettu: 24.08.2025 Luettavissa: https://github.com/terokarvinen/dreamhugmonkey#adding-images-to-markdown
