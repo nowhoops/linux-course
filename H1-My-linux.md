@@ -135,5 +135,6 @@ Best program xeyes
 Not too useful but always makes me crack up
 
 Lähteet
-
+Tero Karvinen, 6.2006. Raportin kirjoittaminen Luettu: 24.08
+Luettavissa:https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
