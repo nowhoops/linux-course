@@ -131,9 +131,8 @@ sudo ufw enable
 
 k) Optional Bonus: My Favorite Program on Linux
 
-I used xeyes, a fun graphical tool:
-
-xeyes &
+Best program xeyes
+Not too useful but always makes me crack up
 
 Lähteet
 
