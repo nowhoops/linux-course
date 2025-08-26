@@ -122,7 +122,7 @@ ip a
 sudo apt install x11-apps
 xeyes &
  
-![Xeyes](/upload/xeyes.md)
+![Xeyes](/upload/xeyes.png)
 (Karvinen, 2022)
 
 
