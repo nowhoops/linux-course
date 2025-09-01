@@ -78,7 +78,7 @@ nmap — network scanning tool
 
 John the Ripper — password cracking tool
 
-hydra — network login cracker
+whois
 
 Installation Command (all three at once):
 ```bash
