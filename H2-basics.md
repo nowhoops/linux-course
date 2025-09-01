@@ -101,21 +101,6 @@ Downloaded rockyou.txt wordlist
 wget https://gitlab.com/kalilinux/packages/wordlists/-/raw/kali/master/rockyou.txt.gz
 ```
 ### Unziped it
-
-    At 16:43:48, the NetworkManager-dispatcher.service was deactivated successfully.
-
-    Between 16:51:25 and 16:51:39, the user schooldeb executed commands with sudo:
-
-        Attempted to run apt-get lshw (typo, hupsi)
-
-        Ran apt-get install
-
-        Executed lshw -short -sanitize to list hardware details
-
-    Each sudo session was properly opened and closed.
-
-    No error or warning messages are present in the logs.
-
 ```bash
 gunzip rockyou.txt.gz
 ```
