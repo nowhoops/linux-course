@@ -170,24 +170,51 @@ ps aux | grep ssh
 Output:
 <img width="1131" height="113" alt="image" src="https://github.com/user-attachments/assets/13f26840-9bee-4a50-8116-129bce711e9a" />
 
-#What system do I run
-Breakdown
-system:
-Standard PC (i440FX + PIIX, 1996) — Usually mark of emulation. According to (https://www.qemu.org/docs/master/system/i386/pc.html)
-Bus: Mother Board
-processor (/0/400): Intel(R) Core(TM) i5-9600K CPU running at 3.70 GHz
-memory (/0/1000): 16 GiB of system RAM.  
-bridge devices:
-Several bridges that connect different buses (such as PCI buses) and facilitate communication between hardware components.
-display (/0/100/2 /dev/fb0): virtual graphics card
-network (/0/100/3 and /0/100/3/0 ens3): Virtio-based network device and Ethernet interface ens3 
+# System Overview
 
-USB & input devices (/0/100/4):USB 3.0 virtual hid devices
-storage (/0/100/6 and /0/100/6/0): Virtual hard drive 100 GB total with few partitions
-generic devices (/0/100/5, /0/100/7):
-Virutal Power button
-Two VirtualPS/2 VMware virtual mice
+### What system do I run?
 
+- **System:**  
+  Standard PC (i440FX + PIIX, 1996) — This is typically a sign of emulation.  
+  *(as stated by: [QEMU i386 PC](https://www.qemu.org/docs/master/system/i386/pc.html))*
+
+- **Bus:**  
+  Motherboard
+
+- **Processor (/0/400):**  
+  Intel(R) Core(TM) i5-9600K CPU running at 3.70 GHz
+
+- **Memory (/0/1000):**  
+  16 GiB of system RAM
+
+### Bridges
+
+Several bridge devices connect different buses (such as PCI buses) and enable communication between hardware components.
+
+### Display (/0/100/2 /dev/fb0)
+
+Virtual graphics card
+
+
+
+### Network (/0/100/3 and /0/100/3/0 ens3)
+
+Virtio-based network device and Ethernet interface **ens3**
+
+
+### USB & Input Devices (/0/100/4)
+
+USB 3.0 virtual HID devices, including virtual tablet input
+
+
+### Storage (/0/100/6 and /0/100/6/0)
+
+Virtual hard drive with 100 GB total capacity, divided into several partitions
+
+### Generic Devices (/0/100/5, /0/100/7)
+
+- Virtual power button  
+- Two VirtualPS/2 VMware virtual mice
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
 
