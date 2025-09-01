@@ -2,7 +2,7 @@
 
 > Summary of Karvinen (2020)
 x)
-##Navigating and Viewing Files
+## Navigating and Viewing Files
 | Command         | Description                          |                          |
 | --------------- | ------------------------------------ | ------------------------ |
 | `pwd`           | Prints the current working directory |                          |
@@ -11,7 +11,7 @@ x)
 | `cd ..`         | Moves up one dir                     |                          |
 
 
-##File manipulation
+## File manipulation
 | Command              | Description                           |
 | -------------------- | ------------------------------------  |
 | `nano filename`      | Text editor, save with CTRL-X         |
@@ -21,7 +21,7 @@ x)
 | `rm filename`        | Removes a file                        |
 | `rm -r folder`       | Removes a folder with all its holdings|
 
-##Remote access and file transfer
+## emote access and file transfer
 | Command                          | Description                    |
 | -------------------------------- | ------------------------------ |
 | `ssh user@server`                | Opens a secure remote shell    |
@@ -33,7 +33,7 @@ x)
 | -------------------------------- | ------------------------------- |
 | `man command`                    | Shows manual page               |
 
-##Package Management
+## Package Management
 | Command                        | Description                      |
 | ------------------------------ | -------------------------------- |
 | `sudo apt-get update`          | Updates package lists            |
