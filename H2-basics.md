@@ -239,5 +239,6 @@ No error or warning messages are present in the logs.
 
 Sites:
 ### Tero karvinen, 2020: **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
+### Tero karvinen: https://terokarvinen.com/linux-palvelimet/
 ### qemu, n.d: https://www.qemu.org/docs/master/system/i386/pc.html
 
