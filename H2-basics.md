@@ -3,6 +3,8 @@
 | --------------- | ------------- |
 | **Date**        | 2025-09-01    |
 | **Environment** | Debian Trixie |
+- [x] )
+
 
 
 # Command Line Basics Revisited
