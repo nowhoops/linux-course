@@ -143,33 +143,37 @@ ls
 
 # The Friendly M – Using grep
 
-###I ran three useful grep command examples. 
-1. 
+## I ran three useful grep command examples. 
+### 1. 
 How I find words inside file.
 ```bash
 grep "whoops" rockyou.txt
 ```
+
+### 2.
+I could find the number of times string that matches the given word 
 ```bash
-<pre>whoops
-whoops1
-whoopsie
-whoopsnake
-whoopsmag
-whoopshake
-whoopsey7
-whoopsdad
-whoopsadaisy
-whoopsa08
-whoopsa
-whoops7
-whoops69
-whoops66
-whoops23
-whoops22
-whoops20
-whoops123
-italktopeopleidonotno!65@912233whoopwhoopsoputupwidit@xx@xx
-123whoops</pre>
+grep -c "unix" geekfile.txt
+```
+<img width="561" height="485" alt="image" src="https://github.com/user-attachments/assets/45d87792-098d-40c2-a46c-e691db729cfc" />
+
+### 3.
+Search for error in all files under the /var/log directory
+```bash
+grep -r "error" /var/log
+```
+
+# How to use pipe
+```bash
+ps aux | grep ssh
+```
+Output:
+root         869  0.0  0.1  11768  7936 ?        Ss   Aug27   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+schoold+    1053  0.0  0.0  10532  1724 ?        Ss   Aug27   0:03 /usr/bin/ssh-agent x-session-manager
+root       94475  0.0  0.3  19812 12804 ?        Ss   15:09   0:00 sshd-session: schooldeb [priv]
+schoold+   94483  0.1  0.1  19928  7524 ?        S    15:09   0:07 sshd-session: schooldeb@pts/1
+schoold+   95454  0.0  0.0   6528  2264 pts/1    S+   16:47   0:00 grep ssh
+schooldeb@schooldeb:~/Downloads$ ^C
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
