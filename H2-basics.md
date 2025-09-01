@@ -45,14 +45,8 @@ x)
 (karvinen, 2020)
 
 
-Linux-tehtävien raportti
-Author: [Your Name]
-Date: [Date]
-Environment:
-Raportin tekijä: MR. Whoops
-Päivämäärä: 2025_09_1
-Linux-järjestelmä:debian trixie
- --------------------  | --------------|
+Linux Task Report
+|--------------------  | --------------|
 |  Author              | MR. Whoops    |
 |  Date                | 2025_09_1     |
 |  Environment         | Debian Trixie |
