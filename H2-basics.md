@@ -82,24 +82,46 @@ hydra — network login cracker
 
 Installation Command (all three at once):
 ```bash
-sudo apt-get install nmap john hydra -y
+sudo apt-get install nmap john whois -y
 ```
 Testing and Observations:
 
-nmap (10:20)
-Command: nmap -v localhost
-<img width="597" height="443" alt="image" src="https://github.com/user-attachments/assets/0168f058-241a-4851-896c-f7419e64a7ca" />
+nmap 
+Command:
+```bash
+nmap -v localhost
+```
+
+<img width="597" height="443" alt="Test with nmap" src="https://github.com/user-attachments/assets/0168f058-241a-4851-896c-f7419e64a7ca" />
 
 
-John the Ripper (10:30)
-Command: john --test
-Result: Ran benchmark tests for password cracking; speeds and supported formats displayed.
+John the Ripper 
+### Downloaded rockyou.txt wordlist
+```bash
+wget https://gitlab.com/kalilinux/packages/wordlists/-/raw/kali/master/rockyou.txt.gz
+```
+### Unziped it
+```bash
+gunzip rockyou.txt.gz
+```
+### Run simple test with John 
+```bash
+john --wordlist=rockyou.txt --rules --stdout | head -10
+```
 
-hydra (10:40)
-Command: hydra -h
-Result: Help page displayed listing usage syntax and options.
+### Wanted to test simple password crack with John
+### Used mkpasswd (from whois package) to create the hash:
+```bash
+mkpasswd --method=sha-512 mrwhoop > whoop_hash.txt
+```
 
-Screenshots or logs can be attached here.
+### Then run John to crack the hash:
+sudo john --wordlist=rockyou.txt whoop_hash.txt
+sudo john --show whoop_hash.txt
+
+<img width="785" height="375" alt="image" src="https://github.com/user-attachments/assets/d2a6396e-8725-4182-924e-8cccbccc0408" />
+
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
+
