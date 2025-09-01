@@ -86,7 +86,7 @@ sudo apt-get install nmap john whois -y
 ```
 Testing:
 
-nmap 
+### nmap 
 Command:
 ```bash
 nmap -v localhost
@@ -95,8 +95,8 @@ nmap -v localhost
 <img width="597" height="443" alt="Test with nmap" src="https://github.com/user-attachments/assets/0168f058-241a-4851-896c-f7419e64a7ca" />
 
 
-John the Ripper 
-### Downloaded rockyou.txt wordlist
+### John the Ripper 
+Downloaded rockyou.txt wordlist
 ```bash
 wget https://gitlab.com/kalilinux/packages/wordlists/-/raw/kali/master/rockyou.txt.gz
 ```
