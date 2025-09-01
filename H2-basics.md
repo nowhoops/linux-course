@@ -135,6 +135,7 @@ cd /etc #Config filesin human readable format
 ls -lha
 ```
 <img width="649" height="625" alt="image" src="https://github.com/user-attachments/assets/f28ea81b-3780-4f42-9b86-053b5bf9ea5d" />
+
 ```bash
 clear
 cd /home #User home directory
