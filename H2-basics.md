@@ -3,7 +3,7 @@
 | --------------- | ------------- |
 | **Date**        | 2025-09-01    |
 | **Environment** | Debian Trixie |
-- [X - Command Line Basics](#x---) 
+
 
 
 
