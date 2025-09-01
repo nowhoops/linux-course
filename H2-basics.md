@@ -8,7 +8,7 @@
 # Command Line Basics Revisited
 
 > Summary of Karvinen (2020)
-x)
+# x)
 ### Navigating and Viewing Files
 | Command         | Description                          |                          |
 | --------------- | ------------------------------------ | ------------------------ |
@@ -53,9 +53,9 @@ x)
 
 
 
-#
+# a)
 
-## a) Installing the Micro Editor
+## Installing the Micro Editor
 
 **Date and Time:** 2025-09-01 10:00
 
@@ -68,8 +68,8 @@ sudo apt-get install micro
 micro
 ```
 
-b) Installing and Testing Three Command-Line Programs
-
+# b)
+## Installing and Testing Three Command-Line Programs
 
 
 Chosen Programs:
@@ -142,7 +142,8 @@ cd /home #User home directory
 ls 
 ```
 
-# The Friendly M – Using grep
+# D)
+##The Friendly M – Using grep
 
 ## I ran three useful grep command examples. 
 ### 1. 
@@ -164,14 +165,16 @@ Search for error in all files under the /var/log directory
 grep -r "error" /var/log
 ```
 
-# How to use pipe
+# E)
+## How to use pipe
 ```bash
 ps aux | grep ssh
 ```
 Output:
 <img width="1131" height="113" alt="image" src="https://github.com/user-attachments/assets/13f26840-9bee-4a50-8116-129bce711e9a" />
 
-# System Overview
+# F)
+## System Overview
 
 ### What system do I run?
 
