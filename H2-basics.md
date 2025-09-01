@@ -238,6 +238,6 @@ Each sudo session was properly opened and closed.
 No error or warning messages are present in the logs.
 
 Sites:
-Tero karvinen, 2020: **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
-qemu, n.d: https://www.qemu.org/docs/master/system/i386/pc.html
+### Tero karvinen, 2020: **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
+### qemu, n.d: https://www.qemu.org/docs/master/system/i386/pc.html
 
