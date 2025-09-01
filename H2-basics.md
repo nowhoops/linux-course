@@ -45,7 +45,17 @@ x)
 (karvinen, 2020)
 
 
+Linux-tehtävien raportti
 
+Raportin tekijä: MR. Whoops
+Päivämäärä: 2025.09.1
+Työympäristö: debian trixie
+Kone: [Esim. Dell GX270 työasema]
+Linux-järjestelmä: [Esim. Ubuntu 22.04 LTS]
+
+Paikka: [Esim. Helia-talon tietokonelaboratorio H5013]
+
+Verkko: [Esim. Helian LAN]
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
