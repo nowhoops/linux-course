@@ -168,12 +168,25 @@ grep -r "error" /var/log
 ps aux | grep ssh
 ```
 Output:
-root         869  0.0  0.1  11768  7936 ?        Ss   Aug27   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
-schoold+    1053  0.0  0.0  10532  1724 ?        Ss   Aug27   0:03 /usr/bin/ssh-agent x-session-manager
-root       94475  0.0  0.3  19812 12804 ?        Ss   15:09   0:00 sshd-session: schooldeb [priv]
-schoold+   94483  0.1  0.1  19928  7524 ?        S    15:09   0:07 sshd-session: schooldeb@pts/1
-schoold+   95454  0.0  0.0   6528  2264 pts/1    S+   16:47   0:00 grep ssh
-schooldeb@schooldeb:~/Downloads$ ^C
+<img width="1131" height="113" alt="image" src="https://github.com/user-attachments/assets/13f26840-9bee-4a50-8116-129bce711e9a" />
+
+#What system do I run
+Breakdown
+system:
+Standard PC (i440FX + PIIX, 1996) — Usually mark of emulation. According to (https://www.qemu.org/docs/master/system/i386/pc.html)
+Bus: Mother Board
+processor (/0/400): Intel(R) Core(TM) i5-9600K CPU running at 3.70 GHz
+memory (/0/1000): 16 GiB of system RAM.  
+bridge devices:
+Several bridges that connect different buses (such as PCI buses) and facilitate communication between hardware components.
+display (/0/100/2 /dev/fb0): virtual graphics card
+network (/0/100/3 and /0/100/3/0 ens3): Virtio-based network device and Ethernet interface ens3 
+
+USB & input devices (/0/100/4):USB 3.0 virtual hid devices
+storage (/0/100/6 and /0/100/6/0): Virtual hard drive 100 GB total with few partitions
+generic devices (/0/100/5, /0/100/7):
+Virutal Power button
+Two VirtualPS/2 VMware virtual mice
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
