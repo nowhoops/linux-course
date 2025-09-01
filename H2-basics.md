@@ -46,10 +46,9 @@ x)
 
 
 Linux Task Report
-|--------------------  | --------------|
-|  Author              | MR. Whoops    |
-|  Date                | 2025_09_1     |
-|  Environment         | Debian Trixie |
+Author	MR. Whoops
+Date	2025-09-01
+Environment	Debian Trixie
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
