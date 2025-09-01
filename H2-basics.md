@@ -82,9 +82,24 @@ hydra — network login cracker
 
 Installation Command (all three at once):
 ```bash
-sudo apt-get install nmap john hydra
+sudo apt-get install nmap john hydra -y
 ```
+Testing and Observations:
 
+nmap (10:20)
+Command: nmap -v localhost
+<img width="597" height="443" alt="image" src="https://github.com/user-attachments/assets/0168f058-241a-4851-896c-f7419e64a7ca" />
+
+
+John the Ripper (10:30)
+Command: john --test
+Result: Ran benchmark tests for password cracking; speeds and supported formats displayed.
+
+hydra (10:40)
+Command: hydra -h
+Result: Help page displayed listing usage syntax and options.
+
+Screenshots or logs can be attached here.
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
