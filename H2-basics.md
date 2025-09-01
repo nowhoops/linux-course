@@ -122,6 +122,55 @@ sudo john --show whoop_hash.txt
 <img width="785" height="375" alt="image" src="https://github.com/user-attachments/assets/d2a6396e-8725-4182-924e-8cccbccc0408" />
 
 
+# Task is to explored the important directories
+```bash
+sudo -s
+cd /bin #Essential user binaries
+ls /bin
+```
+<img width="1001" height="361" alt="image" src="https://github.com/user-attachments/assets/a8ed8c8b-6c42-4c01-8e66-a06d9fdcf958" />
+```bash
+clear
+cd /etc #Config filesin human readable format
+ls -lha
+```
+<img width="649" height="625" alt="image" src="https://github.com/user-attachments/assets/f28ea81b-3780-4f42-9b86-053b5bf9ea5d" />
+```bash
+clear
+cd /home #User home directory
+ls 
+```
+
+# The Friendly M – Using grep
+
+###I ran three useful grep command examples. 
+1. 
+How I find words inside file.
+```bash
+grep "whoops" rockyou.txt
+```
+```bash
+<pre>whoops
+whoops1
+whoopsie
+whoopsnake
+whoopsmag
+whoopshake
+whoopsey7
+whoopsdad
+whoopsadaisy
+whoopsa08
+whoopsa
+whoops7
+whoops69
+whoops66
+whoops23
+whoops22
+whoops20
+whoops123
+italktopeopleidonotno!65@912233whoopwhoopsoputupwidit@xx@xx
+123whoops</pre>
+
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
 
