@@ -65,7 +65,8 @@ x)
 ```bash
 sudo apt-get update
 sudo apt-get install micro
-micro```
+micro
+```
 
 b) Installing and Testing Three Command-Line Programs
 
