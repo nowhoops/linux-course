@@ -47,9 +47,9 @@ x)
 
 Linux-tehtävien raportti
 
-Raportin tekijä: MR. Whoops
-Päivämäärä: 2025.09.1
-Linux-järjestelmä:debian trixie
+Raportin tekijä: [MR. Whoops]
+Päivämäärä: [2025_09_1]
+Linux-järjestelmä:[debian trixie]
 
 
 
