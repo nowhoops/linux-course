@@ -9,9 +9,9 @@
 
 # Command Line Basics Revisited
 
-> Summary of Karvinen (2020)
 # x)
 ### Navigating and Viewing Files
+> Summary of Karvinen (2020)
 | Command         | Description                          |                          |
 | --------------- | ------------------------------------ | ------------------------ |
 | `pwd`           | Prints the current working directory |                          |
