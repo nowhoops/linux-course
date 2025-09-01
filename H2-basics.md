@@ -121,8 +121,8 @@ sudo john --show whoop_hash.txt
 
 <img width="785" height="375" alt="image" src="https://github.com/user-attachments/assets/d2a6396e-8725-4182-924e-8cccbccc0408" />
 
-
-# Task is to explored the important directories
+# C)
+## Task is to explored the important directories
 ```bash
 sudo -s
 cd /bin #Essential user binaries
