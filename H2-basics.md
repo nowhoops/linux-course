@@ -84,7 +84,7 @@ Installation Command (all three at once):
 ```bash
 sudo apt-get install nmap john whois -y
 ```
-Testing and Observations:
+Testing:
 
 nmap 
 Command:
