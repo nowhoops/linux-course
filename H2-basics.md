@@ -154,7 +154,7 @@ grep "whoops" rockyou.txt
 ### 2.
 I could find the number of times string that matches the given word 
 ```bash
-grep -c "unix" geekfile.txt
+grep -c "whoops" rockyou.txt
 ```
 <img width="561" height="485" alt="image" src="https://github.com/user-attachments/assets/45d87792-098d-40c2-a46c-e691db729cfc" />
 
