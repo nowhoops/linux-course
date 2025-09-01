@@ -46,11 +46,16 @@ x)
 
 
 Linux-tehtävien raportti
-
-Raportin tekijä: [MR. Whoops]
-Päivämäärä: [2025_09_1]
-Linux-järjestelmä:[debian trixie]
-
+Author: [Your Name]
+Date: [Date]
+Environment:
+Raportin tekijä: MR. Whoops
+Päivämäärä: 2025_09_1
+Linux-järjestelmä:debian trixie
+ --------------------  | --------------|
+|  Author              | MR. Whoops    |
+|  Date                | 2025_09_1     |
+|  Environment         | Debian Trixie |
 
 
 **https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited**
