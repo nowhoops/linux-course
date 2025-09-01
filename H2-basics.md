@@ -1,8 +1,15 @@
+# Linux Task Report
+| **Author**      | MR. Whoops    |
+| --------------- | ------------- |
+| **Date**        | 2025-09-01    |
+| **Environment** | Debian Trixie |
+
+
 # Command Line Basics Revisited
 
 > Summary of Karvinen (2020)
 x)
-## Navigating and Viewing Files
+### Navigating and Viewing Files
 | Command         | Description                          |                          |
 | --------------- | ------------------------------------ | ------------------------ |
 | `pwd`           | Prints the current working directory |                          |
@@ -11,7 +18,7 @@ x)
 | `cd ..`         | Moves up one dir                     |                          |
 
 
-## File manipulation
+### File manipulation
 | Command              | Description                           |
 | -------------------- | ------------------------------------  |
 | `nano filename`      | Text editor, save with CTRL-X         |
@@ -21,19 +28,19 @@ x)
 | `rm filename`        | Removes a file                        |
 | `rm -r folder`       | Removes a folder with all its holdings|
 
-## emote access and file transfer
+### emote access and file transfer
 | Command                          | Description                    |
 | -------------------------------- | ------------------------------ |
 | `ssh user@server`                | Opens a secure remote shell    |
 | `exit`                           | Exits remote shell             |
 | `scp -r folder user@server:path` | Copies folder to remote server |
 
-## Most useful of the all
+### Most useful of the all
 | Command                          | Description                     |
 | -------------------------------- | ------------------------------- |
 | `man command`                    | Shows manual page               |
 
-## Package Management
+### Package Management
 | Command                        | Description                      |
 | ------------------------------ | -------------------------------- |
 | `sudo apt-get update`          | Updates package lists            |
@@ -45,11 +52,37 @@ x)
 (karvinen, 2020)
 
 
-#Linux Task Report
-| **Author**      | MR. Whoops    |
-| --------------- | ------------- |
-| **Date**        | 2025-09-01    |
-| **Environment** | Debian Trixie |
+
+#
+
+## a) Installing the Micro Editor
+
+**Date and Time:** 2025-09-01 10:00
+
+**Task:** Installed the micro editor using the apt package manager.
+
+**Commands and Actions:**
+```bash
+sudo apt-get update
+sudo apt-get install micro
+micro```
+
+b) Installing and Testing Three Command-Line Programs
+
+
+
+Chosen Programs:
+
+nmap — network scanning tool
+
+John the Ripper — password cracking tool
+
+hydra — network login cracker
+
+Installation Command (all three at once):
+```bash
+sudo apt-get install nmap john hydra
+```
 
 
 
