@@ -293,7 +293,7 @@ sudo a2ensite bar.conf
 Test both in your browser:
 
     **http://foo.home.hlf**
-    <img width="1279" height="1363" alt="image" src="https://github.com/user-attachments/assets/c80cc57f-7db2-4e1a-b962-ef74f54f0546" />
+<img width="1279" height="1363" alt="image" src="https://github.com/user-attachments/assets/c80cc57f-7db2-4e1a-b962-ef74f54f0546" />
 
 
    **http://bar.home.hlf**
