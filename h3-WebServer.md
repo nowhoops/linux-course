@@ -191,18 +191,21 @@ sudo nano /etc/hosts
 
 Add line:
 I have would but these to simulate my dns, but I have dns so I will use it.
+```bash
 127.0.0.1    webapp.home.hlf
 127.0.0.1    www.webapp.home.hlf
 127.0.0.1    webapp.home.hlf
 127.0.0.1    www.webapp.home.hlf
+```
 **Example simulated dns**
 <img width="567" height="93" alt="image" src="https://github.com/user-attachments/assets/d56b3aee-0ff1-43dc-91ef-c1acab4c65e4" />
 
 6. Enable new site, disable default
-
+```bash
 sudo a2dissite 000-default.conf
 sudo a2ensite hattu.conf
 sudo systemctl restart apache2
+```
 
 Visited (http://webapp.home.hlf/)]
 
