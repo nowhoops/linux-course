@@ -172,7 +172,7 @@ chmod ugo+x $HOME $HOME/public_html
 sudo nano /etc/apache2/sites-available/hattu.conf
 
 Add:
-
+```bash
 <VirtualHost *:80>
     ServerName hattu.example.com
     DocumentRoot /home/yourusername/public_html/hattu.example.com
@@ -182,7 +182,7 @@ Add:
         Require all granted
     </Directory>
 </VirtualHost>
-
+```
 Replace yourusername with your actual Linux username.
 
 5. Edit hosts file to simulate DNS
