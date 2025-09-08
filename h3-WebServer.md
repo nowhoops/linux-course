@@ -1,4 +1,4 @@
-# Apache Name-Based Virtual Host on Debian
+# Apache Name-Based Host on Debian
 
 **Date**: 2025-09-08  
 **Environment**: Debian 12, running inside a TrueNAS SCALE virtual machine. 
