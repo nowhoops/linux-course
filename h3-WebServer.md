@@ -6,16 +6,19 @@
 
 
 ## x)
-**Add New Name Based Virtual Host**
+**1.**
+**Add New Name Based Virtual Host** 
 - Allows hosting multiple websites
 - Allows hosting with multiple domain names
 - First listed VirtualHost becomes the default if no match is found.
-**Name Based Virtual Hosts on Apache – Tero Karvinen (2018)**
   - Websites ar created in separate direcotires under user's home foler
   - Easy testing with curl
-  
-
-
+  (tero, karvinen)
+  **2.**
+**Name-Based Virtual Hosts on Apache**
+- Apache first matches a request by IP and port, then uses ServerName and ServerAlias to select the correct virtual host.
+- Always specify a ServerName in each virtual hostto avoid odd behavior, from inherited or default values.
+- Easy to have multible instances
 ## a) Install and Test Apache
 
 ---
@@ -314,7 +317,8 @@ Test both in your browser:
 <img width="1279" height="1363" alt="image" src="https://github.com/user-attachments/assets/83a016ce-23c3-4d2d-a84e-95d832ea5f70" />
 
 
-
+**m)** 
+**Done**
 Sources:
 
 - Karvinen, Tero 2012: Linux course – http://terokarvinen.com/
