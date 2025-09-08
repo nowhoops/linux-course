@@ -20,6 +20,7 @@ Checked service status:
 ```bash
 sudo systemctl status apache2
 ```
+**Screenshot of the terminal**
 <img width="800" height="268" alt="image" src="https://github.com/user-attachments/assets/016a511b-7a1c-4b63-8b96-82a54845861c" />
 
 
