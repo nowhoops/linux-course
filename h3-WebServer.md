@@ -44,7 +44,7 @@ View access logs in real time:
 sudo tail -f /var/log/apache2/access.log
 
 I went to the site again.
-<img width="1708" height="148" alt="image" src="https://github.com/user-attachments/assets/f8f210b2-7235-47b3-80aa-f59435778e08" />
+<img width="1708" height="148" alt="image" src="https://github.com/user-attachments/assets/f8f210b2-7235-47b3-80aa-f59435778e08">
 
 | Part                              | Description                                                             |
 | --------------------------------- | ----------------------------------------------------------------------- |
