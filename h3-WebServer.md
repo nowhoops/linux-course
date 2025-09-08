@@ -72,8 +72,7 @@ I went to the site again.
 
 **Conclusion**: Everyting is working  as it should
 
-
-Step c) Replacerf Default Page with Name-Based Virtual Host
+## c) Replacerf Default Page with Name-Based Virtual Host
 1. Created new directory for the site
 
 mkdir -p ~/public_html/hattu.example.com
