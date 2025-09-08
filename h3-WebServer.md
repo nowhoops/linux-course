@@ -167,7 +167,9 @@ Pasted the following:
 ```
 3. Set proper permissions
 ```bash
-chmod ugo+x $HOME $HOME/public_html
+chmod 711 $HOME
+chmod 755 $HOME/public_html
+
 ```
 4. Created virtual host config
 ```bash
@@ -299,8 +301,16 @@ sudo nano /etc/apache2/sites-available/bar.conf
 127.0.0.1 foo.home.hlf   
 127.0.0.1 bar.home.hlf
 ```
+4. Access:
+```bash
+chmod 775 ~/public_html/foo
+chmod 775 ~/public_html/bar
+```
 
-5. Enable both:
+<img width="753" height="63" alt="image" src="https://github.com/user-attachments/assets/fb279c4a-8ef6-433b-b206-3716993f34a8" />
+
+
+6. Enable both:
 ```bash
 sudo systemctl reload apache2
 sudo a2ensite foo.conf
