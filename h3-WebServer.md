@@ -53,7 +53,7 @@ Tested that the server is working:
 
 ## b) Analyze Apache Access Logs
 
-View access logs in real time:
+Access logs:
 
 sudo tail -f /var/log/apache2/access.log
 
