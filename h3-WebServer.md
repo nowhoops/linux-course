@@ -224,11 +224,11 @@ Go to https://validator.w3.org/
 **Result:** 
 <img width="1065" height="839" alt="image" src="https://github.com/user-attachments/assets/681faae5-3a35-4b6a-a10f-cbdce2df9b89" />
 
-f) Use curl and Explain Headers
+## f) Use curl and Explain Headers
 1. View response headers 
 curl -I http://hattu.example.com
 
-My output:
+### My output:
 schooldeb@schooldeb:~$ curl -I http://webapp.home.hlf
 HTTP/1.1 200 OK
 Date: Mon, 08 Sep 2025 15:19:55 GMT
@@ -253,7 +253,7 @@ Header Explanation
 
 
 
-**extras**
+### **extras**
 Made too directorys
 ```bash
 mkdir -p ~/public_html/foo
