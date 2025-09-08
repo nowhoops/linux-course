@@ -166,13 +166,13 @@ Pasted the following:
 </html>
 ```
 3. Set proper permissions
-
+```bash
 chmod ugo+x $HOME $HOME/public_html
-
+```
 4. Created virtual host config
-
+```bash
 sudo nano /etc/apache2/sites-available/hattu.conf
-
+```
 Add:
 ```bash
 <VirtualHost *:80>
