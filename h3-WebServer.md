@@ -73,11 +73,11 @@ I went to the site again.
 **Conclusion**: Everyting is working  as it should
 
 ## c) Replacerf Default Page with Name-Based Virtual Host
-1. Created new directory for the site
+### 1. Created new directory for the site
 
 mkdir -p ~/public_html/hattu.example.com
 
-2. Created a HTML page
+### 2. Created a HTML page
 ```bash
 nano ~/public_html/hattu.example.com/index.html
 ```
@@ -165,13 +165,13 @@ Pasted the following:
 </body>
 </html>
 ```
-3. Set proper permissions
+### 3. Set proper permissions
 ```bash
 chmod 711 $HOME
 chmod 755 $HOME/public_html
 
 ```
-4. Created virtual host config
+### 4. Created virtual host config
 ```bash
 sudo nano /etc/apache2/sites-available/hattu.conf
 ```
@@ -189,7 +189,7 @@ Add:
 ```
 Replace yourusername with your actual Linux username.
 
-5. Edit hosts file to simulate DNS
+### 5. Edit hosts file to simulate DNS
 
 sudo nano /etc/hosts
 
@@ -205,7 +205,7 @@ Add line:
 ### **Example simulated dns**
 <img width="567" height="93" alt="image" src="https://github.com/user-attachments/assets/d56b3aee-0ff1-43dc-91ef-c1acab4c65e4" />
 
-6. Enable new site, disable default
+### 6. Enable new site, disable default
 ```bash
 sudo a2dissite 000-default.conf
 sudo a2ensite hattu.conf
@@ -216,7 +216,7 @@ Visited (http://webapp.home.hlf/)]
 
 <img width="1065" height="937" alt="image" src="https://github.com/user-attachments/assets/d2f69a87-1405-4009-be03-6a45d29d016a" />
 
- e) Validated the HTML5 Page
+## e) Validated the HTML5 Page
 
 Go to https://validator.w3.org/
 
@@ -267,7 +267,7 @@ echo "<Used the same html as before>" | sudo tee /var/www/foo.home.hlf/public_ht
 echo "<Used the same html as before changed some colors(not nessessary)>" | sudo tee /var/www/foo.home.hlf/public_html/index.html
 
 ```
-2. Create two config files:
+### 2. Create two config files:
 
 **Edit conf file**
 sudo nano /etc/apache2/sites-available/foo.conf
@@ -295,13 +295,13 @@ sudo nano /etc/apache2/sites-available/bar.conf
 </VirtualHost>
 ```
 
-3. Add to /etc/hosts:
+### 3. Add to /etc/hosts:
 **Examples I'm using my dns server**
 ```bash
 127.0.0.1 foo.home.hlf   
 127.0.0.1 bar.home.hlf
 ```
-4. Access:
+### 4. Access:
 ```bash
 chmod 775 ~/public_html/foo
 chmod 775 ~/public_html/bar
@@ -310,7 +310,7 @@ chmod 775 ~/public_html/bar
 <img width="753" height="63" alt="image" src="https://github.com/user-attachments/assets/fb279c4a-8ef6-433b-b206-3716993f34a8" />
 
 
-6. Enable both:
+### 5. Enable both:
 ```bash
 sudo systemctl reload apache2
 sudo a2ensite foo.conf
