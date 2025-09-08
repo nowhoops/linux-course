@@ -18,7 +18,7 @@
 **Name-Based Virtual Hosts on Apache**
 - Apache first matches a request by IP and port, then uses ServerName and ServerAlias to select the correct virtual host.
 - Always specify a ServerName in each virtual hostto avoid odd behavior, from inherited or default values.
-- Easy to have multible instances
+- Easy to have multiple instances
 ## a) Install and Test Apache
 
 ---
