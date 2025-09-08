@@ -5,14 +5,25 @@
 **Host machine**: Intel i5, 8GB RAM, 50GB disk. 
 
 
+## x)
+**Add New Name Based Virtual Host**
+- Allows hosting multiple websites
+- Allows hosting with multiple domain names
+- First listed VirtualHost becomes the default if no match is found.
+**Name Based Virtual Hosts on Apache – Tero Karvinen (2018)**
+  - Websites ar created in separate direcotires under user's home foler
+  - Easy testing with curl
+  
+
+
+## a) Install and Test Apache
+
 ---
 **Connected via ssh**
 ```bash
 ssh shooldeb@<IP_ADDRESS>
 <Enter your password:>
 ```
-
-## a) Install and Test Apache
 
 Install Apache:
 
@@ -303,10 +314,11 @@ Test both in your browser:
 
 Sources:
 
-Karvinen, Tero 2012: Linux course – http://terokarvinen.com/
-Debian Apache2 Wiki, 2021 - https://wiki.debian.org/Apache
-W3C HTML5 Validator, https://validator.w3.org/
-man curl
+- Karvinen, Tero 2012: Linux course – http://terokarvinen.com/
+- Debian Apache2 Wiki, 2021 - https://wiki.debian.org/Apache
+- W3C HTML5 Validator, https://validator.w3.org/
+- man curl
+- https://edu.gcfglobal.org/en/basic-html/interactive-elements-in-html/1/
 
 
 
