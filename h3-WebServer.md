@@ -6,7 +6,7 @@
 
 
 ## x)
-**1.**
+###**1.**
 **Add New Name Based Virtual Host** 
 - Allows hosting multiple websites
 - Allows hosting with multiple domain names
@@ -14,7 +14,7 @@
   - Websites ar created in separate direcotires under user's home foler
   - Easy testing with curl
   (tero, karvinen)
-  **2.**
+###  **2.**
 **Name-Based Virtual Hosts on Apache**
 - Apache first matches a request by IP and port, then uses ServerName and ServerAlias to select the correct virtual host.
 - Always specify a ServerName in each virtual hostto avoid odd behavior, from inherited or default values.
