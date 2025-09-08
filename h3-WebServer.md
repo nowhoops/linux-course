@@ -6,6 +6,11 @@
 
 
 ---
+**Connected via ssh**
+```bash
+ssh shooldeb@<IP_ADDRESS>
+<Enter your password:>
+```
 
 ## a) Install and Test Apache
 
