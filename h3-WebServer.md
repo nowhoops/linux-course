@@ -192,13 +192,14 @@ Replace yourusername with your actual Linux username.
 sudo nano /etc/hosts
 
 Add line:
-I have would but these to simulate my dns, but I have dns so I will use it.
+- these to simulate dns.
 ```bash
 127.0.0.1    webapp.home.hlf
 127.0.0.1    www.webapp.home.hlf
 127.0.0.1    webapp.home.hlf
 127.0.0.1    www.webapp.home.hlf
 ```
+- I use my home network's own dns server, because it is configured to prevent potential DNS spoofing.
 **Example simulated dns**
 <img width="567" height="93" alt="image" src="https://github.com/user-attachments/assets/d56b3aee-0ff1-43dc-91ef-c1acab4c65e4" />
 
