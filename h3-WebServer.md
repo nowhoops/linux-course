@@ -244,7 +244,8 @@ mkdir -p ~/public_html/bar
 ```
 Added different index.html to each.
 ```bash
-nano ~/public_html/foo/index.html
+echo "<Used the same html as before>" | sudo tee /var/www/foo.home.hlf/public_html/index.html
+echo "<Used the same html as before changed some colors(not nessessary)>" | sudo tee /var/www/foo.home.hlf/public_html/index.html
 
 ```
 2. Create two config files:
@@ -283,34 +284,28 @@ sudo nano /etc/apache2/sites-available/bar.conf
 ```
 
 5. Enable both:
-
+```bash
+sudo systemctl reload apache2
 sudo a2ensite foo.conf
 sudo a2ensite bar.conf
-sudo systemctl reload apache2
+```
 
 Test both in your browser:
 
-    http://foo.example.com
-
-http://bar.example.com
-
-//////// good place for screenshot
+    **http://foo.home.hlf**
+    <img width="1279" height="1363" alt="image" src="https://github.com/user-attachments/assets/c80cc57f-7db2-4e1a-b962-ef74f54f0546" />
 
 
+   **http://bar.home.hlf**
+<img width="1279" height="1363" alt="image" src="https://github.com/user-attachments/assets/83a016ce-23c3-4d2d-a84e-95d832ea5f70" />
 
-#did not work lol
-Sources
 
-    Apache Virtual Hosts Docs
 
-site:
+Sources:
 
 Karvinen, Tero 2012: Linux course – http://terokarvinen.com/
-
-Debian Apache2 Wiki
-
-W3C HTML5 Validator
-
+Debian Apache2 Wiki, 2021 - https://wiki.debian.org/Apache
+W3C HTML5 Validator, https://validator.w3.org/
 man curl
 
 
