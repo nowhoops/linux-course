@@ -3,6 +3,7 @@
 **Date**: 2025-09-08  
 **Environment**: Debian 12, running inside a TrueNAS SCALE virtual machine. 
 **Host machine**: Intel i5, 8GB RAM, 50GB disk. 
+- Assignent from (Karvinen, 2025).
 
 
 ## x)
@@ -332,11 +333,14 @@ Test both in your browser:
 
 ##**Sources:**
 
-- Karvinen, Tero 2012: Linux course – http://terokarvinen.com/
-- Debian Apache2 Wiki, 2021 - https://wiki.debian.org/Apache
+
+- Apache. Name-based Virtual Host Support. Available at: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Readon: 8.9.2025.
+- Apache 2. HTTP Status Codes. Available at: https://nightlies.apache.org/httpd/trunk/doxygen/group__HTTP__Status.html. Read on: 8.9.2025.
+- Karvinen, T. Linux-palvelimet. Available at: https://terokarvinen.com/linux-palvelimet/. Read on: 8.9.2025.
 - W3C HTML5 Validator, https://validator.w3.org/
+- Karvinen, T. Name Based Virtual Hosts on Apache. Available at: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Read on: 8.9.2025.
 - man curl
-- https://edu.gcfglobal.org/en/basic-html/interactive-elements-in-html/1/
+- interactive-elements-in-html, 2021. Available at: https://edu.gcfglobal.org/en/basic-html/interactive-elements-in-html/1/ Read on: 8.9.2025.
 
 
 
