@@ -27,8 +27,7 @@ Specifications:
 - **Location:** Finland (Helsinki)  
 - **Operating System:** Debian 11
 
-- **Added my public ssh key the platform makes changes to the system!!!!!!!!!!!!!!!!!!!!**
-
+- Added my public SSH key to the platform; the system automatically placed it in the correct location.
 ---
 
 ## b) Initial Server Setup
@@ -123,17 +122,15 @@ http://[your_server_ip]
 The page displayed this.
 <img width="1467" height="1055" alt="image" src="https://github.com/user-attachments/assets/ee3eff47-ad7e-4df4-b187-81f35885d735" />
 
+### References
 
+- [**GeeksforGeeks – How to Use Rsync to Make a Remote Linux Backup**](https://www.geeksforgeeks.org/linux-unix/how-to-use-rsync-to-make-a-remote-linux-backup/)  
+  *Updated: December 13, 2023*
 
-links:
-- https://www.geeksforgeeks.org/linux-unix/how-to-use-rsync-to-make-a-remote-linux-backup/
+- [**Tero Karvinen – First Steps on a New Virtual Private Server (DigitalOcean Example)**](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)  
+  *Posted: September 19, 2017*
 
-How to Use Rsync to Make a Remote Linux Backup
-Last Updated : 13 Dec, 2023 
+- [**Susanna Lehto – Teoriasta käytäntöön pilvipalvelimen avulla (in Finnish)**](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)  
+  *Published: February 14, 2022*
 
-
- - Posted on September 19, 2017 by Tero Karvinen	
-https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
-- Teoriasta käytäntöön pilvipalvelimen avulla (h4)
-Kirjoittaja Susanna / 14.2.2022 / Linux-palvelimet
-https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+These sources complement the topics discussed in Haaga-Helia coursework, offering both theoretical and practical perspectives on Linux servers, cloud environments, and remote backups.
