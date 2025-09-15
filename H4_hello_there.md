@@ -4,14 +4,14 @@ From Theory to Practice with a Cloud (Lehto,2022)
 - Free versions for students
 - Cheap to run small website for non- students.
 - Registering domain and using it with ur site is easy.
-d) Protecting the Server with a Firewall
+- b) Protecting the Server with a Firewall
 - Installed UFW firewall on Debian.
 - Allowed SSH (port 22) and http (port 80) and enabled the firewall.
-e) Hosting a Website
+- c) Hosting a Website
 - Installed Apache server.
 - Created a new user, enabled userdir, and set up a personal homepage in public_html.
 - Website was successfully published and visible online.
-f) Updating Server Software
+- d) Updating Server Software
 - Ran apt-get update, upgrade, and dist-upgrade to update all packages.
 
 
