@@ -117,8 +117,7 @@ sudo systemctl restart apache2
 ```
 4. Check the site from browser
 I opened the browser of choice and navigated to:
-
-http://[your_server_ip]
+(http://80.69.175.168/)
 
 The page displayed this.
 <img width="1467" height="1055" alt="image" src="https://github.com/user-attachments/assets/ee3eff47-ad7e-4df4-b187-81f35885d735" />
