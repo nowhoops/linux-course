@@ -1,8 +1,8 @@
 # Hello_there
 ## X)
 From Theory to Practice with a Cloud (Lehto,2022)
-- Free versions for students
-- Cheap to run small website for non- students.
+- Free hosting for students.
+- Cheap to run small website.
 - Registering domain and using it with ur site is easy.
   ##### b) Protecting the Server with a Firewall
 - Installed UFW firewall on Debian.
