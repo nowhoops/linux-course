@@ -119,6 +119,8 @@ sudo systemctl restart apache2
 I opened the browser of choice and navigated to:
 (http://80.69.175.168/)
 
+########(Go to the page and move your mouse around)
+
 The page displayed this.
 <img width="1467" height="1055" alt="image" src="https://github.com/user-attachments/assets/ee3eff47-ad7e-4df4-b187-81f35885d735" />
 
