@@ -1,4 +1,19 @@
 # Hello_there
+## X)
+From Theory to Practice with a Cloud (Lehto,2022)
+- Free versions for students
+- Cheap to run small website for non- students.
+- Registering domain and using it with ur site is easy.
+d) Protecting the Server with a Firewall
+- Installed UFW firewall on Debian.
+- Allowed SSH (port 22) and http (port 80) and enabled the firewall.
+e) Hosting a Website
+- Installed Apache server.
+- Created a new user, enabled userdir, and set up a personal homepage in public_html.
+- Website was successfully published and visible online.
+f) Updating Server Software
+- Ran apt-get update, upgrade, and dist-upgrade to update all packages.
+
 
 ## a) Renting a Virtual Server
 - I chose to use **UpCloud** because our teacher mentioned it's trustworthy, and I personally like the fact that it is a **Finland-based** hosting provider.
@@ -101,70 +116,24 @@ sudo nano /var/www/html/index.html
 sudo systemctl restart apache2
 ```
 4. Check the site from browser
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-
-'
-
-
-
-
-
 I opened the browser of choice and navigated to:
 
 http://[your_server_ip]
 
-The page displayed the message: Hello from my VPS. I also tested it on my mobile phone using mobile data to ensure it worked from the outside network.
-
-📷 Screenshot – Web page in browser:
-___ss here
-d) Name Based Virtual Host (Optional)
-
-I also configured a Name Based Virtual Host, which allows me to host multiple websites on the same server and manage them as a normal user.
-1. Create a directory and custom test page
-
-sudo mkdir -p /var/www/mydomain.fi/html
-sudo chown -R $USER:$USER /var/www/mydomain.fi/html
-echo "<h1>This is mydomain.fi</h1>" > /var/www/mydomain.fi/html/index.html
-
-2. Create a new Virtual Host config file
-
-sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/mydomain.fi.conf
-sudo nano /etc/apache2/sites-available/mydomain.fi.conf
-
-Then I changed the content of the config file to:
-
-<VirtualHost *:80>
-    ServerAdmin webmaster@localhost
-    ServerName mydomain.fi
-    DocumentRoot /var/www/mydomain.fi/html
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
-
-3. Enable the new site
-
-sudo a2ensite mydomain.fi.conf
-sudo systemctl reload apache2
-
-4. Disable the default site
-
-sudo a2dissite 000-default.conf
-sudo systemctl reload apache2
-
-After this, only my custom site at mydomain.fi was visible regardless of which domain was accessed.
-
-📷 Screenshot – mydomain.fi in browser:
-___ss here
-
-
+The page displayed this.
+<img width="1467" height="1055" alt="image" src="https://github.com/user-attachments/assets/ee3eff47-ad7e-4df4-b187-81f35885d735" />
 
 
 
 links:
-https://www.geeksforgeeks.org/linux-unix/how-to-use-rsync-to-make-a-remote-linux-backup/
+- https://www.geeksforgeeks.org/linux-unix/how-to-use-rsync-to-make-a-remote-linux-backup/
 
 How to Use Rsync to Make a Remote Linux Backup
 Last Updated : 13 Dec, 2023 
+
+
+ - Posted on September 19, 2017 by Tero Karvinen	
+https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Teoriasta käytäntöön pilvipalvelimen avulla (h4)
+Kirjoittaja Susanna / 14.2.2022 / Linux-palvelimet
+https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
