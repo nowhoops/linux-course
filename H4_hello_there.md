@@ -124,6 +124,7 @@ I opened the browser of choice and navigated to:
 The page displayed this.
 <img width="1467" height="1055" alt="image" src="https://github.com/user-attachments/assets/ee3eff47-ad7e-4df4-b187-81f35885d735" />
 
+
 ### References
 
 - [**GeeksforGeeks – How to Use Rsync to Make a Remote Linux Backup**](https://www.geeksforgeeks.org/linux-unix/how-to-use-rsync-to-make-a-remote-linux-backup/)  
