@@ -3,7 +3,7 @@
 From Theory to Practice with a Cloud (Lehto,2022)
 - Free hosting for students.
 - Cheap to run small website.
-- Registering domain and using it with ur site is easy.
+- Registering domain and using it with your site is easy.
   ##### b) Protecting the Server with a Firewall
 - Installed UFW firewall on Debian.
 - Allowed SSH (port 22) and http (port 80) and enabled the firewall.
