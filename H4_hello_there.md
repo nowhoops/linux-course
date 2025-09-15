@@ -36,7 +36,7 @@ From Theory to Practice with a Cloud (Lehto,2022)
 
 #### Login Method:
 
-- Added my public SSH key to the platform; the system automatically placed it in the correct location.
+- Added my old public SSH key to the platform.
 <img width="661" height="195" alt="image" src="https://github.com/user-attachments/assets/34382fc2-e1ad-4dd4-abeb-090777bc6423" />
 
 ---
