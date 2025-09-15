@@ -56,6 +56,7 @@ sudo nano /etc/ssh/sshd_config
 - Find and chage line (PermitRootLogin yes) to (PermitRootLogin no)
 ##### **Before**
 <img width="225" height="123" alt="image" src="https://github.com/user-attachments/assets/277f982a-ca1a-4735-a161-09970c49ce9b" />
+
 ##### **After**
 <img width="181" height="123" alt="image" src="https://github.com/user-attachments/assets/d0220644-3c23-4bce-ac19-f07e93d71546" />
 
