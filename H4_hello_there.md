@@ -17,17 +17,28 @@ From Theory to Practice with a Cloud (Lehto,2022)
 
 ## a) Renting a Virtual Server
 - I chose to use **UpCloud** because our teacher mentioned it's trustworthy, and I personally like the fact that it is a **Finland-based** hosting provider.
-- I created an account and selected a system that would meet my needs.
+- I created an account
+- Started to make the server
+<img width="121" height="31" alt="image" src="https://github.com/user-attachments/assets/ddab6033-2197-4159-b4d3-dded0a43b66d" />
 
-Specifications:
 
+
+##### Selected a system that would meet my needs.
+- Specifications:
 - **CPU:** 1 core  
 - **Memory:** 1 GB  
 - **Storage:** 20 GB  
 - **Location:** Finland (Helsinki)  
-- **Operating System:** Debian 11
+- **Operating System:** Debian 13 (Trixie)
+
+##### Network:
+<img width="673" height="407" alt="image" src="https://github.com/user-attachments/assets/3f5bb3b3-ec2c-4179-be0f-43cc01a5183a" />
+
+#### Login Method:
 
 - Added my public SSH key to the platform; the system automatically placed it in the correct location.
+<img width="661" height="195" alt="image" src="https://github.com/user-attachments/assets/34382fc2-e1ad-4dd4-abeb-090777bc6423" />
+
 ---
 
 ## b) Initial Server Setup
