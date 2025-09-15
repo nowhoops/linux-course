@@ -54,9 +54,9 @@ sudo mv -nv /root/.ssh /root/DISABLED-ssh/
 sudo nano /etc/ssh/sshd_config
 ```
 - Find and chage line (PermitRootLogin yes) to (PermitRootLogin no)
-- **Before
+##### **Before**
 <img width="225" height="123" alt="image" src="https://github.com/user-attachments/assets/277f982a-ca1a-4735-a161-09970c49ce9b" />
-- **After
+##### **After**
 <img width="181" height="123" alt="image" src="https://github.com/user-attachments/assets/d0220644-3c23-4bce-ac19-f07e93d71546" />
 
 ### 4. Install and configure the firewall (UFW)
