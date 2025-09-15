@@ -87,7 +87,7 @@ sudo ufw status verbose
 ```bash
 sudo passwd -S root
 ```
-** L = Locked
+**L = Locked**
 <img width="535" height="43" alt="image" src="https://github.com/user-attachments/assets/552fd551-897b-4caa-8069-9688864c4e45" />
 
 **Check OS version**:
