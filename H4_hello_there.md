@@ -78,7 +78,7 @@ sudo systemctl reboot
 ```
 ### 6. Testing everything
 
-**Check firewall status**:
+##### **Check firewall status**:
 ```bash
 sudo ufw status verbose
 ```
