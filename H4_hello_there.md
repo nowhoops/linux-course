@@ -147,4 +147,3 @@ The page displayed this.
 - [**Susanna Lehto – Teoriasta käytäntöön pilvipalvelimen avulla (in Finnish)**](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)  
   *Published: February 14, 2022*
 
-These sources complement the topics discussed in Haaga-Helia coursework, offering both theoretical and practical perspectives on Linux servers, cloud environments, and remote backups.
