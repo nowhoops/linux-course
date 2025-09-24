@@ -117,7 +117,7 @@ sudo apt install apache2 -y
 ```
 ### 2. Replace the default page
 ```bash
-sudo nano /var/www/html/index.html
+nano /var/www/html/index.html
 ```
 - Enter the HTML content of your choice.
 - I used the HTML from the last H3 submission.
