@@ -15,7 +15,7 @@ From Theory to Practice with a Cloud (Lehto,2022)
 - Ran apt-get update, upgrade, and dist-upgrade to update all packages.
 
 
-## a) Renting a Virtual Server
+## a) Renting a Virtual Server 
 - I chose to use **UpCloud** because our teacher mentioned it's trustworthy, and I personally like the fact that it is a **Finland-based** hosting provider.
 - I created an account
 - Started to make the server
@@ -56,7 +56,7 @@ sudo usermod -aG sudo schooldeb
 ```bash
 sudo rsync --archive --chown=schooldeb:schooldeb ~/.ssh /home/schooldeb
 ```
-- How to Use Rsync to Make a Remote Linux Backup, 2023)
+- (How to Use Rsync to Make a Remote Linux Backup, 2023)
 
 ### 3. Lock the root account
 ```bash
