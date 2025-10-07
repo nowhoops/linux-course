@@ -4,7 +4,7 @@
 - **Author:** [whoops]  
 - **Course:** Linux Systems and Networking  
 - **Computer:** i7-14700K / 5070 Ti / 64 GB RAM / Fedora OS
-- **Server:**  1core / 1GB / Storage 10GB
+- **Server:**  1core / 1GB / Storage 20GB
 - My site: **Heema.fi**
 ## X)
 From Theory to Practice with a Cloud (Lehto,2022)
