@@ -146,4 +146,6 @@ The page displayed this.
 
 - [**Susanna Lehto – Teoriasta käytäntöön pilvipalvelimen avulla (in Finnish)**](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)  
   *Published: February 14, 2022*
+- Karvinen, Tero. *Linux Servers*.  
+  [https://terokarvinen.com/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/)
 
