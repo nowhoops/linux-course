@@ -140,10 +140,15 @@ k) Optional Bonus: My Favorite Program on Linux
 Best program xeyes
 Not too useful but always makes me crack up
 
-Lähteet
-Tero Karvinen, 4.6.2006. Raportin kirjoittaminen Luettu: 24.08.2025
-Luettavissa:https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
-Tero Karvinen. s.a. Linux Palvelimet 2025 alkusyksy. Luettu:24.08.2025
-Luettavissa: https://terokarvinen.com/linux-palvelimet/
-Tero Karvinen. 2022. dreamhugmonkey. Luettu: 24.08.2025 Luettavissa: https://github.com/terokarvinen/dreamhugmonkey#adding-images-to-markdown
+## Sources
+
+- Tero Karvinen, June 4, 2006. *Writing a Report*. Accessed: August 24, 2025.  
+  Available at: [https://terokarvinen.com/2006/raportin-kirjoittaminen-4/](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+
+- Tero Karvinen. n.d. *Linux Servers, Early Autumn 2025*. Accessed: August 24, 2025.  
+  Available at: [https://terokarvinen.com/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/)
+
+- Tero Karvinen. 2022. *dreamhugmonkey*. Accessed: August 24, 2025.  
+  Available at: [https://github.com/terokarvinen/dreamhugmonkey#adding-images-to-markdown](https://github.com/terokarvinen/dreamhugmonkey#adding-images-to-markdown)
+
